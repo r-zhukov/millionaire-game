@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 function App() {
-  return <div>some string dwd</div>;
+  return <div>work</div>;
 }
 
 export default App;
