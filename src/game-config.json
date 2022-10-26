@@ -1,0 +1,135 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Big Ben is … ",
+      "answers": [
+        {
+          "id": "a",
+          "answer": "a clock",
+          "isRight": true
+        },
+        {
+          "id": "b",
+          "answer": "horse",
+          "isRight": false
+        },
+        {
+          "id": "c",
+          "answer": "an animal in the zoo",
+          "isRight": false
+        },
+        {
+          "id": "d",
+          "answer": "a famous name",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the official language in Great Britain",
+      "answers": [
+        {
+          "id": "a",
+          "answer": "English",
+          "isRight": true
+        },
+        {
+          "id": "b",
+          "answer": "French",
+          "isRight": false
+        },
+        {
+          "id": "c",
+          "answer": "Russian",
+          "isRight": false
+        },
+        {
+          "id": "d",
+          "answer": "Chinese",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Piccadilly Circus is the meeting point of …",
+      "answers": [
+        {
+          "id": "a",
+          "answer": "four streets",
+          "isRight": false
+        },
+        {
+          "id": "b",
+          "answer": "six streets",
+          "isRight": true
+        },
+        {
+          "id": "c",
+          "answer": "five streets",
+          "isRight": false
+        },
+        {
+          "id": "d",
+          "answer": "seven streets",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "The oldest part of London is …",
+      "answers": [
+        {
+          "id": "a",
+          "answer": "The City",
+          "isRight": true
+        },
+        {
+          "id": "b",
+          "answer": "Westminster",
+          "isRight": false
+        },
+        {
+          "id": "c",
+          "answer": "East End",
+          "isRight": false
+        },
+        {
+          "id": "d",
+          "answer": "West End",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Who built the abbey church in the 11th century?",
+      "answers": [
+        {
+          "id": "a",
+          "answer": "Charles Dickens",
+          "isRight": false
+        },
+        {
+          "id": "b",
+          "answer": "Sir Christopher Wren",
+          "isRight": false
+        },
+        {
+          "id": "c",
+          "answer": "King Edward the Confessor",
+          "isRight": true
+        },
+        {
+          "id": "d",
+          "answer": "Admiral Nelson",
+          "isRight": false
+        }
+      ]
+    }
+  ],
+  "costs": [500, 1000, 2000, 4000, 8000, 16000, 32000, 64000, 125000, 250000, 500000, 1000000]
+}
