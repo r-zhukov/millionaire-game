@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 function App() {
-  return <div>worddddk</div>;
+  return <div>work</div>;
 }
 
 export default App;
