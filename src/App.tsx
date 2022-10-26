@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 function App() {
-  return <div>string</div>;
+  return <div>some string</div>;
 }
 
 export default App;
