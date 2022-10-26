@@ -50,8 +50,7 @@
   "lint-staged": {
     "*.(ts|tsx)": [
       "node_modules/.bin/eslint --max-warnings=0",
-      "prettier --write",
-      "npm run test"
+      "prettier --write"
     ]
   }
 }
