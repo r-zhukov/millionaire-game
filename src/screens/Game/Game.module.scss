@@ -3,11 +3,8 @@
 .game {
   display: flex;
   justify-content: space-between;
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
-  flex: auto;
   background-color: $black5;
+  flex: 1;
 
   .question {
     width: 100%;

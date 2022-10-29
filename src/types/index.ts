@@ -1,4 +1,6 @@
-import { ButtonHTMLAttributes, ReactNode } from 'react';
+import { ButtonHTMLAttributes, PropsWithChildren } from 'react';
+
+export type TGameStages = 'start' | 'game' | 'finish';
 
 export type TIssuesCostProps = {
   costs: number[];
@@ -17,6 +19,6 @@ export type TGameProps = {
   currentQuestionIndex: number;
 };
 
-export type TButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
-  children?: ReactNode | undefined;
-};
+export type TButtonProps = PropsWithChildren<
+  ButtonHTMLAttributes<HTMLButtonElement>
+>;
