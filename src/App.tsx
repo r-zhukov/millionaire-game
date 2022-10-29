@@ -3,7 +3,7 @@ import Game from './screens/Game/Game';
 import gameSettings from './game-config.json';
 
 function App() {
-  const [currentQuestionIndex] = useState(3);
+  const [currentQuestionIndex] = useState(0);
   return (
     <Game
       currentQuestionIndex={currentQuestionIndex}
