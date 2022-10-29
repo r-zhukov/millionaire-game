@@ -14,5 +14,11 @@ module.exports = {
     ecmaVersion: 'latest',
   },
   plugins: ['react', '@typescript-eslint', 'prettier'],
-  rules: {},
+  rules: {
+    'react/require-default-props': 'off',
+    'react/button-has-type': 'off',
+    'react/no-unused-prop-types': 'off',
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
+  },
 };

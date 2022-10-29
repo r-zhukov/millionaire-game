@@ -1,8 +1,16 @@
-import React from 'react';
-import './App.css';
+import React, { useState } from 'react';
+import Game from './screens/Game/Game';
+import gameSettings from './game-config.json';
 
 function App() {
-  return <div>work</div>;
+  const [currentQuestionIndex] = useState(3);
+  return (
+    <Game
+      currentQuestionIndex={currentQuestionIndex}
+      costs={gameSettings.costs}
+      question={gameSettings.questions[currentQuestionIndex]}
+    />
+  );
 }
 
 export default App;

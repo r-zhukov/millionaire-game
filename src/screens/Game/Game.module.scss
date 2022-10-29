@@ -1,0 +1,40 @@
+@import "src/index";
+
+.game {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  flex: auto;
+  background-color: $black5;
+
+  .question {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 133px 0 122px 96px;
+
+    &_title {
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 116%;
+      word-break: break-word;
+    }
+
+    &__answers {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px 0;
+    }
+  }
+
+  .rightBar {
+    max-width: 376px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: $white100;
+  }
+}
