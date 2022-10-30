@@ -1,0 +1,19 @@
+@import "src/index";
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+
+  &__start {
+    background: linear-gradient(to top left, $orange5 50%, $white100 50%);
+  }
+
+  &__finish {
+    background-color: $white100;
+  }
+
+  &__game {
+    background-color: $black5;
+  }
+}

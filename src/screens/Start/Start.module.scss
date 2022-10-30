@@ -1,0 +1,15 @@
+@import "src/index";
+
+.startScreen {
+
+  &__title {
+    max-width: 624px;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 65px;
+  }
+
+  &__action {
+    padding-top: 64px;
+  }
+}

@@ -1,26 +1,24 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './Answer.module.scss';
+import { TAnswerProps } from '../../types';
 
 function Answer({
   answer,
   id,
   onAnswerClick,
-  selected,
-}: {
-  answer: string;
-  id: string;
-  onAnswerClick: (id: string) => void;
-  selected: boolean;
-}) {
+  variant,
+  disabled,
+}: TAnswerProps) {
   return (
-    <div
+    <button
+      disabled={disabled}
       onClick={() => onAnswerClick(id)}
-      className={clsx(styles.answer, selected && styles.answer__selected)}
+      className={clsx(styles.answer, variant && styles[`answer__${variant}`])}
     >
       <div className={styles.answer__number}>{id}</div>
       <div className={styles.answer__text}>{answer}</div>
-    </div>
+    </button>
   );
 }
 

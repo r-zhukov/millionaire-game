@@ -7,7 +7,7 @@ describe('PageWrapper component', () => {
     render(
       <PageWrapper>
         <div>Rendered</div>
-      </PageWrapper>,
+      </PageWrapper>
     );
     const wrapperElem = screen.getByTestId('page-wrapper');
     expect(wrapperElem).toBeInTheDocument();
@@ -17,7 +17,7 @@ describe('PageWrapper component', () => {
     render(
       <PageWrapper>
         <div>Rendered</div>
-      </PageWrapper>,
+      </PageWrapper>
     );
     const childElem = screen.getByText(/Rendered/);
     expect(childElem).toBeInTheDocument();

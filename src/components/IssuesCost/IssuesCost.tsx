@@ -15,7 +15,7 @@ function IssuesCost({ costs, currentCost }: TIssuesCostProps) {
             className={clsx(
               styles.issuesCost__item,
               currentCost === index && styles.issuesCost__item__active,
-              currentCost > index && styles.issuesCost__item__passed,
+              currentCost > index && styles.issuesCost__item__passed
             )}
           >
             {utilFormatMoney(cost)}

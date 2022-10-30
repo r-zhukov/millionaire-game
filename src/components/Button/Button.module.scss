@@ -1,6 +1,8 @@
 @import "src/index";
 
 .button {
+  box-sizing: border-box;
+  min-width: 294px;
   height: 64px;
   padding: 20px 24px;
   background-color: $orange100;
@@ -11,6 +13,7 @@
   line-height: 116%;
   text-align: center;
   border: none;
+  cursor: pointer;
 
   &:hover {
     background-color: $orange80;

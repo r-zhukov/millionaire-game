@@ -4,14 +4,7 @@ import Answer from './Answer';
 
 describe('button component', () => {
   test('render', () => {
-    render(
-      <Answer
-        onAnswerClick={() => {}}
-        id="a"
-        answer="First"
-        selected={false}
-      />,
-    );
+    render(<Answer onAnswerClick={() => {}} id="a" answer="First" />);
     const linkElement = screen.getByText('First');
     expect(linkElement).toBeInTheDocument();
   });

@@ -6,7 +6,7 @@
       "answers": [
         {
           "id": "a",
-          "answer": "a clock",
+          "answer": "clock",
           "isRight": true
         },
         {
@@ -16,12 +16,12 @@
         },
         {
           "id": "c",
-          "answer": "an animal in the zoo",
+          "answer": "animal in the zoo",
           "isRight": false
         },
         {
           "id": "d",
-          "answer": "a famous name",
+          "answer": "famous name",
           "isRight": false
         }
       ]
@@ -129,8 +129,203 @@
           "isRight": false
         }
       ]
+    },
+    {
+      "id": 6,
+      "question": "Sir Christopher Wren built …",
+      "answers": [
+        {
+          "id": "a",
+          "answer": "St. Paul’s cathedral",
+          "isRight": true
+        },
+        {
+          "id": "b",
+          "answer": "The Tower of London",
+          "isRight": false
+        },
+        {
+          "id": "c",
+          "answer": "Westminster Abbey",
+          "isRight": false
+        },
+        {
+          "id": "d",
+          "answer": "The Parliament",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "London is more than …",
+      "answers": [
+        {
+          "id": "a",
+          "answer": "One thousand years old",
+          "isRight": false
+        },
+        {
+          "id": "b",
+          "answer": "Two thousand years old",
+          "isRight": true
+        },
+        {
+          "id": "c",
+          "answer": "Three thousand years old",
+          "isRight": false
+        },
+        {
+          "id": "d",
+          "answer": "Four thousand years old",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "In what country do men wear skirts?",
+      "answers": [
+        {
+          "id": "a",
+          "answer": "France",
+          "isRight": false
+        },
+        {
+          "id": "b",
+          "answer": "England",
+          "isRight": false
+        },
+        {
+          "id": "c",
+          "answer": "Scotland",
+          "isRight": true
+        },
+        {
+          "id": "d",
+          "answer": "Norway",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "The Princess Diana was the wife of …",
+      "answers": [
+        {
+          "id": "a",
+          "answer": "Prince John",
+          "isRight": false
+        },
+        {
+          "id": "b",
+          "answer": "Prince Robert",
+          "isRight": false
+        },
+        {
+          "id": "c",
+          "answer": "Prince Wilhelm",
+          "isRight": false
+        },
+        {
+          "id": "d",
+          "answer": "Prince Charles",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Covent Garden is now …",
+      "answers": [
+        {
+          "id": "a",
+          "answer": "Cinema",
+          "isRight": false
+        },
+        {
+          "id": "b",
+          "answer": "Fruit and vegetable garden",
+          "isRight": false
+        },
+        {
+          "id": "c",
+          "answer": "Theatre",
+          "isRight": false
+        },
+        {
+          "id": "d",
+          "answer": "Tourist shopping centre",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Where are the tombs of many British kings and queens and other famous people?",
+      "answers": [
+        {
+          "id": "a",
+          "answer": " In the Tower of London",
+          "isRight": false
+        },
+        {
+          "id": "b",
+          "answer": "On the Cemetry",
+          "isRight": false
+        },
+        {
+          "id": "c",
+          "answer": "On the river bank",
+          "isRight": false
+        },
+        {
+          "id": "d",
+          "answer": "In Westminster Abbey",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Government type is …",
+      "answers": [
+        {
+          "id": "a",
+          "answer": "Ademocracy",
+          "isRight": false
+        },
+        {
+          "id": "b",
+          "answer": "Constitutional monarchy",
+          "isRight": true
+        },
+        {
+          "id": "c",
+          "answer": "Capitalism",
+          "isRight": false
+        },
+        {
+          "id": "d",
+          "answer": "Cepublic",
+          "isRight": false
+        }
+      ]
     }
   ],
-  "costs": [500, 1000, 2000, 4000, 8000, 16000, 32000, 64000, 125000, 250000, 500000, 1000000],
+  "costs": [
+    500,
+    1000,
+    2000,
+    4000,
+    8000,
+    16000,
+    32000,
+    64000,
+    125000,
+    250000,
+    500000,
+    1000000
+  ],
   "currency": "$"
 }
