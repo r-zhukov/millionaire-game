@@ -22,7 +22,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "CI=true react-scripts test a",
+    "test": "CI=true react-scripts test --colors a",
     "lint": "npx eslint src",
     "eject": "react-scripts eject",
     "prepare": "husky install"
