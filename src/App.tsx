@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import clsx from 'clsx';
+import gameSettings from '@mmillionaire-game/outside-dist/game-config.json';
 import Game from './screens/Game/Game';
-import gameSettings from './game-config.json';
 import PageWrapper from './components/PageWrapper/PageWrapper';
 import Start from './screens/Start/Start';
 import { TGameStages } from './types';

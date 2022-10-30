@@ -1,5 +1,5 @@
 import IMask from 'imask';
-import gameSettings from '../game-config.json';
+import gameSettings from '@mmillionaire-game/outside-dist/game-config.json';
 
 const masked = IMask.createMask({
   mask: `${gameSettings.currency}num`,
