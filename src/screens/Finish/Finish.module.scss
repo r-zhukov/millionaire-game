@@ -4,14 +4,31 @@
   &__label {
     font-weight: 600;
     font-size: 32px;
-    line-height: 37px;
+    line-height: 116%;
     opacity: .5;
+
+    @media (max-width: $max_tablet_width) {
+      text-align: center;
+    }
+
+    @media (max-width: $max_mobile_width) {
+      font-size: 18px;
+    }
   }
 
   &__value {
     font-weight: 600;
     font-size: 56px;
-    line-height: 65px;
+    line-height: 116%;
+
+    @media (max-width: $max_tablet_width) {
+      text-align: center;
+    }
+
+    @media (max-width: $max_mobile_width) {
+      font-size: 32px;
+
+    }
   }
 
   &__label + &__value {
@@ -19,6 +36,12 @@
   }
 
   &__action {
-    padding-top: 64px;
+    margin-top: 64px;
+
+    @media (max-width: $max_tablet_width) {
+      display: flex;
+      justify-content: center;
+      margin-top: auto;
+    }
   }
 }

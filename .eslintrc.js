@@ -32,6 +32,7 @@ module.exports = {
     'react/no-unused-prop-types': 'off',
     'jsx-a11y/click-events-have-key-events': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
+    'jsx-a11y/no-noninteractive-element-interactions': 'off',
     'implicit-arrow-linebreak': ['error', 'beside'],
   },
 };

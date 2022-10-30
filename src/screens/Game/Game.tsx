@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
+import clsx from 'clsx';
 import Answer from '../../components/Answer/Answer';
 import styles from './Game.module.scss';
 import IssuesCost from '../../components/IssuesCost/IssuesCost';
 import { TGameProps, TQuestionStatus } from '../../types';
+import cross from '../../assets/icons/cross.png';
+import burger from '../../assets/icons/burger.png';
 
 function Game({
   question,
@@ -14,6 +17,8 @@ function Game({
   const [questionStatus, setQuestionStatus] =
     useState<TQuestionStatus>('waitingAnswer');
   const [isButtonBlocked, setIsButtonBlocked] = useState(false);
+
+  const [isRightBarVisible, setIsRightBarVisible] = useState(false);
 
   const getAnswerVariant = (isRight: boolean, answerId: string) => {
     if (questionStatus === 'waitingAnswer' && answerId === selectedAnswerId) {
@@ -52,6 +57,12 @@ function Game({
 
   return (
     <div className={styles.game}>
+      <img
+        className={styles.game__menuButton}
+        src={isRightBarVisible ? cross : burger}
+        alt="button-icon"
+        onClick={() => setIsRightBarVisible((prevState) => !prevState)}
+      />
       <div className={styles.question}>
         <h1 className={styles.question_title}>{question.question}</h1>
         <div className={styles.question__answers}>
@@ -67,7 +78,12 @@ function Game({
           ))}
         </div>
       </div>
-      <div className={styles.rightBar}>
+      <div
+        className={clsx(
+          styles.rightBar,
+          isRightBarVisible && styles.rightBar__visible
+        )}
+      >
         <IssuesCost
           costs={costs}
           currentCost={currentQuestionIndex as number}
